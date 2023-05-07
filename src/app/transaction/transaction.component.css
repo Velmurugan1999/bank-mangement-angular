@@ -1,0 +1,56 @@
+.body
+{
+  background-image: url(https://media.istockphoto.com/photos/piggy-bank-dollar-bag-on-a-laptop-picture-id1275761597?b=1&k=20&m=1275761597&s=170667a&w=0&h=v8S7_c6h5xK8B034rBfgypNVgPgiHY2jovD4srzyQ4I=);
+  background-size:100% 100%;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.btn-float-left
+{
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 20px;
+	float: left;	
+}
+.btn-float-right{
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-radius: 20px;
+	float: right;
+}
+button:hover 
+{
+    background-color: rgb(108, 106, 226);
+	border-color: aliceblue;
+}
+
+.table
+{
+  margin-left: 35%;
+  padding-top: 10px;
+}
+tr:nth-child(even)
+{
+    background-color: #2387ca;
+    padding : 10px;
+}
+tr:nth-child(odd)
+{
+    background-color: #9bcae9;
+    padding : 10px;
+}
+th {
+  background-color: #072464;
+  color: white;
+}
+h1 {
+  padding-top: 20px;
+	text-align: center;
+  color: #1900ff ;
+  font-style: italic;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgb(43, 174, 226);
+  
+}

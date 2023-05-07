@@ -1,0 +1,68 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://wallpaperaccess.com/full/1658089.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.alert-danger{
+    color:rgb(235, 236, 226);
+}
+.container
+{
+    background-color: transparent;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+   
+input[type=text],
+input[type=password],
+input[type=password],
+input[type=number],
+input[type=phone] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #cbcbcb;
+    font-family: cursive;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=number]:focus {
+    background-color: #fff;
+    outline: black 5px dotted;
+}
+
+/* Set a style for all buttons */
+
+button 
+{
+    background-color: rgb(8, 7, 4);
+    transition-duration: 0.4s;
+    color: white;
+    padding: 10px 10px;
+    margin: 9px 9px;
+    border-color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 25%;
+}
+
+button:hover 
+{
+    background-color: orange;
+}
+.container 
+{
+    max-width: 350px;
+    margin-left: 5px ;
+    padding-left: 5px;
+    
+}

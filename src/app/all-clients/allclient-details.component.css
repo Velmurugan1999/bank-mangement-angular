@@ -1,0 +1,72 @@
+.heading {
+	text-align: center;
+	color: #dfe6e9;
+
+}
+
+.btn-float-left
+{
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 20px;
+	float: left;	
+}
+.btn-float-right{
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-radius: 20px;
+	float: right;
+}
+button:hover 
+{
+    background-color: rgb(108, 106, 226);
+	border-color: aliceblue;
+}
+
+tr
+{
+	color: rgb(0, 0, 0);
+}
+
+table, th, td {
+	align-content: center;
+	width: 50%;
+	padding: 10px;
+	border: 1px solid rgb(241, 236, 236);
+}
+tr:nth-child(even)
+{
+    background-color: #2387ca;
+    padding : 10px;
+}
+tr:nth-child(odd)
+{
+    background-color: #9bcae9;
+    padding : 10px;
+}
+.body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://i0.wp.com/seoautopilotcoupon.com/wp-content/uploads/2019/02/SEO-Autopilot-VPS-set-up.jpg?fit=800%2C400&ssl=1);
+	background-size:100% 100%;
+}
+h1
+{
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px lightskyblue;
+}
+.container
+{
+  position: relative;
+  top: 60%;
+  width: auto;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.table
+{
+	margin-left: 10%;
+}

@@ -1,0 +1,29 @@
+<div class="body">
+  <button type="button" class="btn-float-left" (click)="home()">Home Page</button>
+  <button type="button" class="btn-float-right" (click)="logout()">Logout</button>
+  
+	<div class="container">
+		<div>
+      <br>
+      <br>
+      <br>
+            <h1>Balance Details</h1>
+        </div>
+        <table border="1">
+            <thead class="thead-dark">
+              <tr >
+                <th scope="col">Current Balance</th>
+                <th scope="col">Out Standing Balance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{ client.accountbalance }}</td>
+                <td>{{ client.outstandingbalance }}</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <br>
+  </div>
+</div>
